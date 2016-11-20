@@ -332,7 +332,9 @@ section.section {
 ============================= */
 
 #parallax1{	
-	background-image: url(../img/parallax/img1.jpg);
+	background-image: url(../img/depend/tc1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 #parallax2{	
 	background-image: url(../img/parallax/img2.jpg);
@@ -432,7 +434,7 @@ h1 a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
-	background: #70B9B0;
+	background: #3a4675;
 	color: #fdfdfd;
 }
 
@@ -1042,7 +1044,13 @@ a.socialIcon:hover, .socialHoverClass {
 	border-bottom: 4px solid;
 }
 
+.dropdown-menu {
+	position: relative;
+}
 
+.dropdown {
+	min-width: 190px;
+}
 
 /* ========================================
 Media queries
