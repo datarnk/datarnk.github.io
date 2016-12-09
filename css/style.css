@@ -1102,3 +1102,23 @@ Media queries
 		margin-bottom: 30px;
 	}
 }
+
+#section-solve i{
+	color: white    !important;
+}
+
+#section-solve a h4{
+	color: white;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+#section-solve a h4:hover{
+	color: #DACDA2 !important;
+	text-decoration: underline;
+	text-shadow: 1px 1px #352A06  !important;
+}
