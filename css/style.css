@@ -11,7 +11,7 @@
 body {
 	color:#777;
 	background: #f7f7f7;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.6em;
 	font-weight: 300;
 	text-shadow: none;
@@ -166,63 +166,69 @@ a:hover {
 /* ---- padding ---- */
 /* top */
 .pad-top0 {
-	padding-top: 0;
+	padding-top: 0 !important;
 }
 .pad-top5 {
-	padding-top: 5px;
+	padding-top: 5px !important;
 }
 
 .pad-top10 {
-	padding-top: 10px;
+	padding-top: 10px !important;
 }
 
 .pad-top15 {
-	padding-top: 15px;
+	padding-top: 15px !important;
 }
 .pad-top20 {
-	padding-top: 20px;
+	padding-top: 20px !important;
 }
 .pad-top25 {
-	padding-top: 25px;
+	padding-top: 25px !important;
 }
 .pad-top30 {
-	padding-top: 30px;
+	padding-top: 30px !important;
 }
 .pad-top35 {
-	padding-top: 35px;
+	padding-top: 35px !important;
 }
 .pad-top40 {
-	padding-top: 40px;
+	padding-top: 40px !important;
+}
+.pad-top50 {
+	padding-top: 50px !important;
+}
+.pad-top60 {
+	padding-top: 60px !important;
 }
 /* bottom */
 .pad-bot0 {
-	padding-bottom: 0;
+	padding-bottom: 0 !important;
 }
 .pad-bot5 {
-	padding-bottom: 5px;
+	padding-bottom: 5px !important;
 }
 
 .pad-bot10 {
-	padding-bottom: 10px;
+	padding-bottom: 10px !important;
 }
 
 .pad-bot15 {
-	padding-bottom: 15px;
+	padding-bottom: 15px !important;
 }
 .pad-bot20 {
-	padding-bottom: 20px;
+	padding-bottom: 20px !important;
 }
 .pad-bot25 {
-	padding-bottom: 25px;
+	padding-bottom: 25px !important;
 }
 .pad-bot30 {
-	padding-bottom: 30px;
+	padding-bottom: 30px !important;
 }
 .pad-bot35 {
-	padding-bottom: 35px;
+	padding-bottom: 35px !important;
 }
 .pad-bot40 {
-	padding-bottom: 40px;
+	padding-bottom: 40px !important;
 }
 
 
@@ -436,6 +442,13 @@ section.featured {
 	padding: 200px 0 60px;
 	background: #3a4675;
 	color: #fdfdfd;
+}
+
+section.featured h1.slogan {
+	color: #fff;
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: 900;
 }
 
 section.featured h2.slogan {
@@ -1104,16 +1117,16 @@ Media queries
 }
 
 #section-solve i{
-	color: white    !important;
+	color: #666    !important;
 }
 
 #section-solve a h4{
-	color: white;
+	color: #666;
 	text-decoration: underline;
 }
 
 a:visited {
-	color: white;
+	color: #666;
 	text-decoration: underline;
 }
 
