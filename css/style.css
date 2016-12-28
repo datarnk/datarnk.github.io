@@ -1117,12 +1117,14 @@ Media queries
 }
 
 #section-solve i{
-	color: #666    !important;
+	color: #3a4675    !important;
+	/*color: #666    !important;*/
 }
 
 #section-solve h4{
 	font-size: 24px;
-	color: #666;
+	color: #3a4675    !important;
+	/*color: #666    !important;*/
 }
 
 #section-solve a h4{
