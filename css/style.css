@@ -1120,6 +1120,11 @@ Media queries
 	color: #666    !important;
 }
 
+#section-solve h4{
+	font-size: 24px;
+	color: #666;
+}
+
 #section-solve a h4{
 	font-size: 24px;
 	color: #666;
