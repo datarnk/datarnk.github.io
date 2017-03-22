@@ -1117,13 +1117,17 @@ Media queries
 }
 
 #section-solve i{
-	color: #3a4675    !important;
+	color: dimgray  !important;
 	/*color: #666    !important;*/
+}
+
+#section-services i {
+	color: #ddd  !important;
 }
 
 #section-solve h4{
 	font-size: 24px;
-	color: #3a4675    !important;
+	color: dimgray    !important;
 	/*color: #666    !important;*/
 }
 
@@ -1132,8 +1136,18 @@ Media queries
 	color: #666;
 }
 
-a:visited {
+a {
 	color: #666;
+	text-decoration: underline;
+}
+
+a:visited {
+	 color: #666;
+	 text-decoration: underline;
+ }
+
+a:hover {
+	color: #242424 !important;
 	text-decoration: underline;
 }
 
